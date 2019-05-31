@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="ppf.base.math.IHashMap"/>
+    <classEntry path="ppf.base.object.ColorItem"/>
+    <classEntry path="ppf.base.frame.IChartView"/>
+    <classEntry path="ppf.base.graphics.IOpSelection"/>
+    <classEntry path="com.grusen.interfaces.IModelManager"/>
+    <classEntry path="com.grusen.interfaces.IUIModel"/>
+    <classEntry path="com.grusen.frame.events.ViewToolBarEvent"/>
+    <classEntry path="com.grusen.frame.views.ViewWindow"/>
+    <classEntry path="com.grusen.frame.views.ViewTab"/>
+    <classEntry path="com.grusen.frame.views.ViewWindowBar"/>
+    <classEntry path="com.grusen.frame.views.ViewTabBar"/>
+    <classEntry path="com.grusen.frame.views.SplitWindow"/>
+    <classEntry path="com.grusen.frame.views.RootWindow"/>
+    <classEntry path="com.grusen.frame.views.interfaces.IDockaDividedBox"/>
+    <classEntry path="com.grusen.frame.views.interfaces.IDockWindow"/>
+    <classEntry path="com.grusen.frame.views.TabNavigator"/>
+    <classEntry path="com.grusen.frame.views.ViewToolBar"/>
+    <classEntry path="com.grusen.frame.views.ViewToolBarButton"/>
+    <classEntry path="ppf.base.frame.AlertUtil"/>
+    <classEntry path="com.grusen.frame.views.interfaces.IDragInitiator"/>
+    <classEntry path="com.grusen.frame.views.interfaces.ITabBar"/>
+    <classEntry path="com.grusen.frame.views.Panel"/>
+    <classEntry path="ppf.base.frame.Singleton"/>
+    <classEntry path="ppf.base.resources.IResourceManager"/>
+    <classEntry path="ppf.base.asunit.runner.TestSuiteLoader"/>
+    <classEntry path="ppf.base.asunit.framework.TestCaseExample"/>
+    <classEntry path="ppf.base.asunit.framework.AsynchronousTestCaseExample"/>
+    <classEntry path="ppf.base.asunit.runner.Version"/>
+    <classEntry path="ppf.base.asunit.framework.TestCase"/>
+    <classEntry path="ppf.base.asunit.textui.TestRunner"/>
+    <classEntry path="ppf.base.asunit.errors.UnimplementedFeatureError"/>
+    <classEntry path="ppf.base.asunit.framework.TestFailure"/>
+    <classEntry path="ppf.base.asunit.util.ArrayIterator"/>
+    <classEntry path="ppf.base.asunit.framework.Assert"/>
+    <classEntry path="ppf.base.asunit.textui.FlexRunner"/>
+    <classEntry path="ppf.base.asunit.framework.AsynchronousTestCase"/>
+    <classEntry path="ppf.base.asunit.framework.TestListener"/>
+    <classEntry path="ppf.base.asunit.errors.ClassNotFoundError"/>
+    <classEntry path="ppf.base.asunit.framework.TestSuite"/>
+    <classEntry path="ppf.base.asunit.framework.TestResult"/>
+    <classEntry path="ppf.base.asunit.textui.FlexTestRunner"/>
+    <classEntry path="ppf.base.asunit.framework.Test"/>
+    <classEntry path="ppf.base.asunit.textui.ResultPrinter"/>
+    <classEntry path="ppf.base.asunit.util.Iterator"/>
+    <classEntry path="ppf.base.asunit.runner.BaseTestRunner"/>
+    <classEntry path="ppf.base.asunit.util.Properties"/>
+    <classEntry path="ppf.base.asunit.textui.FlexWebRunner"/>
+    <classEntry path="ppf.base.math.Test_MathUtil"/>
+  </includeClasses>
+  <includeResources>
+    <resourceEntry destPath="assets/hand_up.png" sourcePath="assets/hand_up.png"/>
+    <resourceEntry destPath="assets/on.gif" sourcePath="assets/on.gif"/>
+    <resourceEntry destPath="assets/defaultTreeAssets.swf" sourcePath="assets/defaultTreeAssets.swf"/>
+    <resourceEntry destPath="assets/Hook.png" sourcePath="assets/Hook.png"/>
+    <resourceEntry destPath="assets/move_arrow.png" sourcePath="assets/move_arrow.png"/>
+    <resourceEntry destPath="assets/maximize_over.gif" sourcePath="assets/maximize_over.gif"/>
+    <resourceEntry destPath="assets/last.png" sourcePath="assets/last.png"/>
+    <resourceEntry destPath="defaults.css" sourcePath="defaults.css"/>
+    <resourceEntry destPath="assets/Arrow_Right.png" sourcePath="assets/Arrow_Right.png"/>
+    <resourceEntry destPath="assets/minimize_over.gif" sourcePath="assets/minimize_over.gif"/>
+    <resourceEntry destPath="assets/minimize.gif" sourcePath="assets/minimize.gif"/>
+    <resourceEntry destPath="assets/TitledBorderBox.png" sourcePath="assets/TitledBorderBox.png"/>
+    <resourceEntry destPath="assets/Arrow_Down.png" sourcePath="assets/Arrow_Down.png"/>
+    <resourceEntry destPath="assets/hand_down.png" sourcePath="assets/hand_down.png"/>
+    <resourceEntry destPath="assets/DragItem.png" sourcePath="assets/DragItem.png"/>
+    <resourceEntry destPath="assets/Arrow_Up.png" sourcePath="assets/Arrow_Up.png"/>
+    <resourceEntry destPath="assets/off.gif" sourcePath="assets/off.gif"/>
+    <resourceEntry destPath="assets/dragStripIcon.gif" sourcePath="assets/dragStripIcon.gif"/>
+    <resourceEntry destPath="assets/restore_over.png" sourcePath="assets/restore_over.png"/>
+    <resourceEntry destPath="assets/clear.gif" sourcePath="assets/clear.gif"/>
+    <resourceEntry destPath="assets/close.gif" sourcePath="assets/close.gif"/>
+    <resourceEntry destPath="assets/resizeCursorTRBL.gif" sourcePath="assets/resizeCursorTRBL.gif"/>
+    <resourceEntry destPath="assets/resizeCursorH.gif" sourcePath="assets/resizeCursorH.gif"/>
+    <resourceEntry destPath="assets/maximize.gif" sourcePath="assets/maximize.gif"/>
+    <resourceEntry destPath="assets/viewDragImageClass.gif" sourcePath="assets/viewDragImageClass.gif"/>
+    <resourceEntry destPath="assets/restore.png" sourcePath="assets/restore.png"/>
+    <resourceEntry destPath="assets/close.png" sourcePath="assets/close.png"/>
+    <resourceEntry destPath="assets/delete.gif" sourcePath="assets/delete.gif"/>
+    <resourceEntry destPath="assets/Arrow_Left.png" sourcePath="assets/Arrow_Left.png"/>
+    <resourceEntry destPath="assets/defaultTreeAssets.fla" sourcePath="assets/defaultTreeAssets.fla"/>
+    <resourceEntry destPath="assets/resizeCursorV.gif" sourcePath="assets/resizeCursorV.gif"/>
+    <resourceEntry destPath="assets/ScrollableArrowMenu.png" sourcePath="assets/ScrollableArrowMenu.png"/>
+    <resourceEntry destPath="assets/next.png" sourcePath="assets/next.png"/>
+    <resourceEntry destPath="assets/previous.png" sourcePath="assets/previous.png"/>
+    <resourceEntry destPath="assets/ScrollableMenu.png" sourcePath="assets/ScrollableMenu.png"/>
+    <resourceEntry destPath="assets/first.png" sourcePath="assets/first.png"/>
+    <resourceEntry destPath="assets/resizeCursorTLBR.gif" sourcePath="assets/resizeCursorTLBR.gif"/>
+    <resourceEntry destPath="assets/hourglass.png" sourcePath="assets/hourglass.png"/>
+  </includeResources>
+  <namespaceManifests/>
+</flexLibProperties>
