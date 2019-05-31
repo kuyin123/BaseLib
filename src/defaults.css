@@ -1,0 +1,98 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+@namespace components "com.grusen.mx.views.components.*";
+@namespace controls "com.jabbypanda.controls.*";
+@namespace controls1 "com.grusen.spark.components.controls.*";
+@namespace components1 "com.grusen.frame.docview.mx.views.components.*";
+@namespace controls2 "com.grusen.frame.docview.spark.components.controls.*";
+@namespace components2 "ppf.base.frame.docview.mx.views.components.*";
+@namespace controls3 "ppf.base.frame.docview.spark.components.controls.*";
+@namespace controls4 "ppf.base.jabbypanda.controls.*";
+
+/*.icon{
+	clear: Embed(source="assets/clear.gif");
+}*/
+controls3|Label{
+	vertical-align:middle;
+}
+components2|RootWindow {
+	border-color: #ECE9D8;
+	border-style: solid;
+	background-color: #ECE9D8;
+	background-alpha: 0.5;
+}
+components2|SplitWindow {
+	vertical-gap:2;
+	horizontal-gap:3;
+	vertical-align:middle;
+	horizontal-align:center
+}
+.dockProxy {
+	font-weight:normal;
+	text-align:left;
+	background-alpha:0.4;
+	background-color: #ECE9D8;
+	border-style:solid;
+	borderColor: #2878be;
+	
+}
+/*.closeButton {
+	up-icon: Embed(source="assets/close.png"); 
+	over-icon: Embed(source="assets/close.png");
+	down-icon: Embed(source="assets/close.png");
+}
+.minimizeButton {
+	up-icon: Embed(source="assets/minimize.gif"); 
+	over-icon: Embed(source="assets/minimize_over.gif");
+	down-icon: Embed(source="assets/minimize_over.gif");
+}
+.restoreButton {
+	up-icon: Embed(source="assets/restore.png"); 
+	over-icon: Embed(source="assets/restore_over.png");
+	down-icon: Embed(source="assets/restore_over.png");
+}
+
+.maximizeButton {
+	up-icon: Embed(source="assets/maximize.gif"); 
+	over-icon: Embed(source="assets/maximize_over.gif");
+	down-icon: Embed(source="assets/maximize_over.gif");
+}*/
+components2|ViewWindow {
+	padding-top:0;
+	padding-bottom:0;
+	padding-left:0;
+	padding-right:0;
+	border-color: #ACA899;
+	border-style:solid;
+}
+components2|ViewTab{
+	background-color:#2878be;
+	text-align:left;
+	corner-radius: 10;
+	borderThickness: 1;
+}
+.popupButton {
+	popUpStyleName: popUpStyleName;	
+	backgroundColor: #ECE9D8;  
+	backgroundOnColor: #FFFFE1;
+	borderColor: #ACA899;
+	cornerRadius: 2;
+	borderStyle: solid;
+	borderThickness: 1;
+	pop-up-gap:2;
+}
+.popUpStyleName {
+	font-weight:normal;
+	text-align:left;
+	background-alpha:0.4;
+	background-color: #FFFFFF;
+	border-style:solid;
+	borderColor: #000000;
+}
+
+controls4|InputAssist
+{
+	skinClass: ClassReference("com.jabbypanda.skins.InputAssistSkin");
+	highlight-background-color : #FFCC00;
+}
